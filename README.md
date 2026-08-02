@@ -13,6 +13,7 @@ Priority	Conversion Type
 
 * String implements CharSequence
 * StringBuilder implements CharSequence
+* StringBuffer  implements CharSequence
 * String and StringBuilder are siblings (neither is a subclass of the other)
 * String is a subclass of CharSequence
 * CharSequence is a subtype of Object
