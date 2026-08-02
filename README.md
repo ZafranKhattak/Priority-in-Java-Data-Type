@@ -14,6 +14,9 @@ Priority	Conversion Type
 * String implements CharSequence
 * StringBuilder implements CharSequence
 * String and StringBuilder are siblings (neither is a subclass of the other)
+* String is a subclass of CharSequence
+* CharSequence is a subtype of Object
+* So String is more specific than both CharSequence and Object
 
 $ Method selection analysis:
 * Method	Is null applicable?	Specificity
